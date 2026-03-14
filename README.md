@@ -48,11 +48,23 @@ Based on the FMCG dataset, clean the data first, then answer the following quest
 4. How many unique customers have made purchases?
 5. How many times have Putra and Putri made purchases, how much money have they spent, and how many items have they bought?
 
+## 📌 Task 2
+
+Using the cleaned dataset, answer the following questions:
+
+1. **Who are the most active customers?**  
+   Identify the **Top 10 customers** based on the number of orders and their total spending.
+
+2. **Which product category sells the most in each channel?**  
+   Compare the performance of each category (**Food, Cleaning, Personal Care**) across different sales channels (**Offline, Online Toko Oren, Online Toko Hijau**).  
+   Determine which category dominates in each channel.
+
 ## 🛠 Tools Used
 
 - SQL
 - Microsoft Excel
 - Power BI
+- Python
 - GitHub
 
 ## 📅 Project Status
