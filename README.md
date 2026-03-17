@@ -2,8 +2,7 @@
 
 ## Project Overview
 
-This project focuses on cleaning a messy FMCG dataset and answering several business questions using SQL and Excel.  
-The dataset was first cleaned to ensure consistent formats and accurate values before performing analysis.
+This project focuses on cleaning and analyzing an FMCG sales dataset to extract meaningful business insights. The workflow covers data cleaning, exploratory data analysis, and dashboard development using SQL, Excel, Python, and Power BI.
 
 ## 📂 Dataset
 
@@ -15,18 +14,26 @@ Two versions of the raw dataset are provided:
 ## 📁 Repository Structure
 
 ```
-.
-├── Data FMCG_BT Data Analyst - Messy.csv   # Raw dataset (SQL cleaning)
-├── Data FMCG_BT Data Analyst - Messy.xlsx  # Raw dataset (Excel cleaning)
-├── fmcg_clean_sql.csv                      # Cleaned dataset using SQL
-├── fmcg_clean.xlsx                         # Cleaned dataset using Excel
-├── fmcg.sql                                # SQL database export
-└── query.sql                               # SQL queries for data cleaning
+├── Data FMCG_BT Data Analyst - Messy.csv     # Raw dataset (SQL cleaning)
+├── Data FMCG_BT Data Analyst - Messy.xlsx    # Raw dataset (Excel cleaning)
+├── fmcg_clean_sql.csv                        # Cleaned dataset using SQL
+├── fmcg_clean.xlsx                           # Cleaned dataset using Excel
+
+├── fmcg.sql                                  # SQL database export
+├── query.sql                                 # SQL queries for data cleaning
+├── query task 1.sql                          # Additional SQL queries
+
+├── Akhdan_KarirNex_Bootcamp_DAA_Python.ipynb # Python analysis (main)
+
+├── Dashboard FMCG.pbix                       # Power BI dashboard
+├── AKHDAN - PORTOFOLIO BT DATA ANALYST.pdf   # Portfolio presentation (final)
+
+├── README.md                                 # Project documentation
 ```
 
 ## 🧹 Data Cleaning Steps
 
-The dataset was cleaned before analysis. The cleaning process includes:
+The dataset was cleaned to ensure data quality, consistency, and reliability before analysis. The cleaning process includes:
 
 1. Convert **sales_date** to the correct date data type
 2. Remove duplicate records based on **order_id**
@@ -41,7 +48,7 @@ The dataset was cleaned before analysis. The cleaning process includes:
 
 ## 📌 Task 1 - SQL & Excel Analysis
 
-Based on the FMCG dataset, clean the data first, then answer the following questions using SQL or Excel:
+After cleaning the dataset, analysis was conducted using SQL and Excel to answer key business questions:
 1. How many cities are listed in the customer_address column?
 2. What is the total sum of total_sales?
 3. How many orders were made in Toko Hijau?
@@ -77,17 +84,31 @@ Using the cleaned dataset, perform the following analysis using **Python**:
    Compare the performance of each category (**Food, Cleaning, Personal Care**) across different sales channels (**Offline, Online Toko Oren, Online Toko Hijau**).  
    Determine which category dominates in each channel.
 
+## 📌 Task 3 - Power BI Dashboard Visualization
+Built an interactive dashboard using Power BI to analyze sales performance and answer key business questions such as identifying the highest revenue city, analyzing monthly sales trends, determining top-performing products, evaluating category contribution to revenue, and understanding order status distribution.  
+
+The dashboard includes key metrics like total orders, total revenue, and total customers, along with multiple visualizations and interactive slicers to support data-driven decision making.
+
+## 📊 Key Insights
+
+- Food category dominates revenue across all sales channels  
+- Online channels contribute significantly to total sales  
+- A small group of customers contributes a large portion of total revenue  
+- Monthly sales show consistent patterns with potential seasonal trends  
+
 ## 🛠 Tools Used
 
 - SQL
 - Microsoft Excel
 - Power BI
 - Python
+- Google Colab
 - GitHub
 
 ## 📅 Project Status
 
 ✔ Task 1 — Data Cleaning & Basic Analysis  
 ✔ Task 2 — Business Questions Analysis (Python)  
+✔ Task 3 — Data Visualization (Power BI)
 
-More tasks will be added as the project progresses.
+Project completed. This project demonstrates end-to-end data analysis workflow from data cleaning to visualization.
